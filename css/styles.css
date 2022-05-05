@@ -64,6 +64,10 @@ body{
     background: #fff !important;
     font-weight: bold;
     opacity: .99;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  
 }
 
@@ -93,8 +97,11 @@ body{
 
 /*RADAR*/
 #radar .container .row .card{
-    
-    margin:80px;
+     margin:80px;
+     width: 50%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
 
 
@@ -153,8 +160,10 @@ body{
 }
 
 #conocenos .container img {
-	width: 366px;
-	margin-left: 43px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
