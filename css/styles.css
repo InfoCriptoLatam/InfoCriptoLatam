@@ -1,0 +1,284 @@
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    opacity: .96;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-color:#000;
+}
+
+
+
+
+
+/*.text-info{
+    color: red !important;
+  
+}*/
+ 
+
+
+
+#inicio .row h1{
+    color: #fff;
+	margin-left: 6px;
+	margin-top: 200px;
+}
+
+#inicio .row p{
+    color:#fff;
+	font-size: 20px ;
+	line-height: 1.5;
+	word-spacing: normal;
+	padding: 10px;
+	margin-left: 6px;
+	margin-top: 60px;
+	
+    
+}
+
+/*TWITTER*/
+
+.row .col-3{
+	
+	margin-top: 50px;
+}
+.row .col-3 h2{
+	color: #fff;
+	margin:60px;
+	margin-top: 120px;
+}
+
+/*NOTICIAS*/
+#noticias .container .row .card{
+    font-size: 15px;
+    margin:80px;
+    background: #fff !important;
+    font-weight: bold;
+    opacity: .99;
+ 
+}
+
+#noticias .container{
+	margin-top: 166px;
+}
+
+#noticias .row p {
+	color: #fff;
+	size:80px;
+}
+
+#noticias .col h3 {
+	color:#000;
+	background:rgba(221, 214, 214, 0.692);
+	font-size: 50px;
+}
+
+#noticias .container .card .card-title{
+	color:#000;
+}
+
+#noticias .container  .card-text {
+	color:#000;
+}
+
+
+/*RADAR*/
+#radar .container .row .card{
+    
+    margin:80px;
+}
+
+
+
+#radar .col  h3 {
+	
+	margin:30px;
+	color:#000;
+	background:rgba(221, 214, 214, 0.692);
+	font-size: 50px;
+}
+#radar .col  p{
+	color:#fff;
+	
+}
+
+#radar .container .card-title{
+	background:none;
+	color:#fff;
+	
+}
+
+#radar .container .card-text{
+	
+	color:#fff;
+	
+}
+
+#radar .container .card {
+	background:none;
+}
+
+
+#radar .container .card-link{
+	color:#ffc600;
+	
+}
+
+
+/*CONOCENOS*/
+
+#conocenos .col  h3 {
+	
+	margin:30px;
+	color:#000;
+	background:rgba(221, 214, 214, 0.692);
+	font-size: 50px;
+}
+
+#conocenos .container .card {
+	background:none;
+	margin-top: 75px;
+	float: center;
+	color:#f1f1f1;
+	
+}
+
+#conocenos .container img {
+	width: 366px;
+	margin-left: 43px;
+}
+
+
+
+/*APRENDE*/
+
+#aprende .col h3 {
+	
+	margin:80px;
+	margin:30px;
+	color:#000;
+	background:rgba(221, 214, 214, 0.692);
+	font-size: 50px;
+}
+
+
+
+
+/*PARTICIPA*/
+
+#participa .col  h3 {
+	
+	margin:30px;
+	color:#000;
+	background:rgba(221, 214, 214, 0.692);
+	font-size: 50px;
+}
+
+#participa .container {
+	margin-top: 100px;
+}
+
+#participa form {
+	margin-top: 50px;
+}
+
+
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark.fixed-top:hover{
+	background: #000!important;
+}
+nav ul{
+	transition: all .6s ease;
+	margin-left: 60px;
+}
+
+nav ul li.nav-item a{
+	color: #f1f1f1!important;
+	font-family: 'Open Sans', sans-serif;
+	transition: all .3s ease;
+	margin:30px;
+		
+}
+
+nav ul li.nav-item a:hover{
+	color: #ffc600!important;
+
+}
+
+nav ul li.nav-item {
+	margin-inline-end: 80px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px){
+	.nav-scroll{
+		margin: 0 36px;
+	    transition: all .6s ease;
+		
+		
+		
+
+	}
+	
+	.logo{
+		display: block!important;
+		transition: all .9s ease;
+		margin-right: 30px;
+		
+		
+	}
+}
+
+@media only screen and (max-width: 992px){
+	img#logo{
+		display: none!important;
+		
+	}
+}
+
+.bg-menu {
+   background: #000000!important;
+
+
+}
+
+
+img#logo{
+	margin-top: 5px;
+	padding: 5 10px;
+	position: absolute;
+	display: none;
+	transition: all .9s ease;
+	
+
+}
+
+
+
+
+#footer {
+    background: #000;
+	margin-top: 30px;
+	height: 200px;
+}
+
+#footer a{
+    color:white;
+}
