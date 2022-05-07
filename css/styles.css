@@ -178,7 +178,20 @@ body{
 	background:rgba(221, 214, 214, 0.692);
 	font-size: 50px;
 }
-
+#aprende .card img{
+	width: 1000px;
+	
+}
+#aprende .container .card{
+	background: #f1f1f1;
+	
+}
+#aprende .container .card h5 {
+	color:#000;
+}
+#aprende .container .card p {
+	color:#000;
+}
 
 
 
