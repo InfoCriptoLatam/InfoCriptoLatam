@@ -42,6 +42,11 @@ body{
 	padding: 10px;
 	text-align: left;
 	margin-top: 10px;
+	
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
     
 }
 
@@ -141,9 +146,9 @@ body{
 }
 
 
-/*CONOCENOS*/
+/*CONOCENE*/
 
-#conocenos .col  h3 {
+#conoceme .col  h3 {
 	
 	margin:30px;
 	color:#000;
@@ -151,19 +156,33 @@ body{
 	font-size: 50px;
 }
 
-#conocenos .container .card {
+
+
+#conoceme .container .card {
 	background:none;
 	margin-top: 75px;
 	float: center;
 	color:#f1f1f1;
 	
+	
+	
 }
 
-#conocenos .container img {
+#conoceme .container .card p{
+	width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+}
+
+
+#conoceme .container img {
     width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+	
 }
 
 
@@ -182,16 +201,24 @@ body{
 	width: 1000px;
 	
 }
+
 #aprende .container .card{
 	background: #f1f1f1;
 	
 }
+
 #aprende .container .card h5 {
 	color:#000;
 }
 #aprende .container .card p {
 	color:#000;
+	width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
 }
+
 
 
 
@@ -304,3 +331,4 @@ img#logo{
 #footer a{
     color:white;
 }
+
